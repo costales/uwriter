@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Writer
+Comment=Text Editor
+Keywords=editor;text;offline;write;
+Exec=qmlscene %u qml/Main.qml
+Icon=assets/uwp.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#F5F5F5

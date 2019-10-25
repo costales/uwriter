@@ -1,0 +1,334 @@
+# Kabyle translation for uwriter
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the uwriter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: uwriter\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-12-31 12:14+0100\n"
+"PO-Revision-Date: 2017-05-01 13:53+0000\n"
+"Last-Translator: Belkacem Mohammed <belkacem77@gmail.com>\n"
+"Language-Team: Kabyle <kab@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-07-05 14:08+0000\n"
+"X-Generator: Launchpad (build 18704)\n"
+
+#: ../qml/About.qml:23 ../qml/About.qml:27 ../qml/Menu.qml:61
+msgid "About"
+msgstr "Ɣef"
+
+#: ../qml/About.qml:40 ../qml/LoadFile.qml:42 ../qml/Menu.qml:45
+#: ../qml/SaveAs.qml:54 ../qml/Settings.qml:40
+msgid "Back"
+msgstr "Ar deffir"
+
+#: ../qml/About.qml:60 ../qml/About.qml:61 ../qml/About.qml:62
+#: ../qml/About.qml:63 ../qml/About.qml:64
+msgid "Resources"
+msgstr "Tiɣbula"
+
+#: ../qml/About.qml:60
+msgid "Rate on Store"
+msgstr ""
+
+#: ../qml/About.qml:61
+msgid "Translations"
+msgstr "Tisuqilin"
+
+#: ../qml/About.qml:62
+msgid "Answers"
+msgstr "Tiririyin"
+
+#: ../qml/About.qml:63
+msgid "Bugs"
+msgstr "Ibugen"
+
+#: ../qml/About.qml:64
+msgid "Contact"
+msgstr "Anermis"
+
+#: ../qml/About.qml:67
+msgid "Developer"
+msgstr "Aneflay"
+
+#: ../qml/About.qml:70
+msgid "Logo"
+msgstr "Alugu"
+
+#: ../qml/About.qml:73
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Belkacem Mohammed https://launchpad.net/~belkacem77"
+
+#: ../qml/About.qml:75
+msgid "Translators"
+msgstr "Imsuqal"
+
+#: ../qml/About.qml:79
+msgid "Powered by"
+msgstr "Irfed-it"
+
+#. TRANSLATORS: %1 and %2 are links that do not have to be translated: Year + Project + License
+#: ../qml/About.qml:121
+#, qt-format
+msgid "Version %1. Under license %2"
+msgstr "Lqem %1. Daw n turagt %2"
+
+#: ../qml/LoadFile.qml:29 ../qml/SaveAs.qml:41
+msgid "Files"
+msgstr "Ifuyla"
+
+#: ../qml/LoadFile.qml:61 ../qml/SaveAs.qml:71
+msgid "No files yet"
+msgstr "Ulac yakan ineflayen"
+
+#: ../qml/Main.qml:102 ../qml/Menu.qml:32
+msgid "Menu"
+msgstr "Umuɣ"
+
+#: ../qml/Main.qml:118
+msgid "Save as"
+msgstr "Sekles s yisem"
+
+#: ../qml/Main.qml:129 ../qml/SaveAs.qml:129
+msgid "Save"
+msgstr "Sekles"
+
+#: ../qml/Main.qml:145
+msgid "Load"
+msgstr "Sali"
+
+#: ../qml/Main.qml:155
+msgid "New"
+msgstr "Amaynut"
+
+#: ../qml/Main.qml:254
+msgid "Save file"
+msgstr "Sekles afaylu"
+
+#: ../qml/Main.qml:255
+msgid "Do you want to save the text?"
+msgstr "Tebɣiḍ ad tskelseḍ aḍris?"
+
+#: ../qml/Main.qml:257 ../qml/SaveAs.qml:166
+msgid "Yes"
+msgstr "Ih"
+
+#: ../qml/Main.qml:281 ../qml/SaveAs.qml:179
+msgid "No"
+msgstr "Ala"
+
+#: ../qml/Main.qml:294 ../qml/SaveAs.qml:149
+msgid "Cancel"
+msgstr "Sefsex"
+
+#: ../qml/Menu.qml:71 ../qml/Settings.qml:27
+msgid "Settings"
+msgstr "Iγewwaren"
+
+#: ../qml/Menu.qml:105
+msgid "Edit"
+msgstr "Ẓreg"
+
+#: ../qml/Menu.qml:112
+msgid "Cut"
+msgstr "Gzem"
+
+#: ../qml/Menu.qml:129
+msgid "Copy"
+msgstr "Nɣel"
+
+#: ../qml/Menu.qml:146
+msgid "Select all"
+msgstr "Fren akk"
+
+#: ../qml/Menu.qml:163
+msgid "Replace…"
+msgstr "Semselsi..."
+
+#: ../qml/Menu.qml:180
+msgid "Search"
+msgstr "Nadi"
+
+#: ../qml/Menu.qml:185
+msgid "Replace"
+msgstr "Semselsi"
+
+#: ../qml/Menu.qml:221
+msgid "Insert"
+msgstr "Ger"
+
+#: ../qml/Menu.qml:228
+msgid "Horizontal line"
+msgstr "Izirig aglawan"
+
+#: ../qml/Menu.qml:245
+msgid "Current date"
+msgstr "Azemz amiran"
+
+#: ../qml/Menu.qml:262
+msgid "Current time"
+msgstr "Akud amiran"
+
+#: ../qml/Menu.qml:279
+msgid "Image…"
+msgstr "Tugna..."
+
+#: ../qml/Menu.qml:296
+msgid "Image link"
+msgstr "Aseɣwen n tugna"
+
+#: ../qml/Menu.qml:318
+msgid "Link…"
+msgstr "Aseɣwen..."
+
+#: ../qml/Menu.qml:335
+msgid "URL (empty = remove)"
+msgstr "URL (ilem= kkes)"
+
+#: ../qml/Menu.qml:375
+msgid "Table"
+msgstr "Tafelwit"
+
+#: ../qml/Menu.qml:382
+msgid "Insert…"
+msgstr "Ger..."
+
+#: ../qml/Menu.qml:401
+msgid "Rows"
+msgstr "Izirigen"
+
+#: ../qml/Menu.qml:414
+msgid "Cols"
+msgstr "Tigejda"
+
+#: ../qml/Menu.qml:449
+msgid "Delete"
+msgstr "Kkes"
+
+#: ../qml/Menu.qml:480
+msgid "Text"
+msgstr "Aḍris"
+
+#: ../qml/Menu.qml:487
+msgid "Bold"
+msgstr "Zur"
+
+#: ../qml/Menu.qml:507
+msgid "Italic"
+msgstr "Uknan"
+
+#: ../qml/Menu.qml:524
+msgid "Underline"
+msgstr "Ittuderrer"
+
+#: ../qml/Menu.qml:541
+msgid "Strikethrough"
+msgstr ""
+
+#: ../qml/Menu.qml:558
+msgid "Superscript"
+msgstr ""
+
+#: ../qml/Menu.qml:575
+msgid "Subscript"
+msgstr ""
+
+#: ../qml/Menu.qml:607
+msgid "Alignment"
+msgstr "Areyyec"
+
+#: ../qml/Menu.qml:614
+msgid "Left"
+msgstr "Azelmaḍ"
+
+#: ../qml/Menu.qml:631
+msgid "Center"
+msgstr "Alemmas"
+
+#: ../qml/Menu.qml:648
+msgid "Right"
+msgstr "Ayeffus"
+
+#: ../qml/Menu.qml:665
+msgid "Justify"
+msgstr "Itturigel"
+
+#: ../qml/Menu.qml:698
+msgid "Heading"
+msgstr "Aqerru"
+
+#: ../qml/Menu.qml:705 ../qml/Menu.qml:722 ../qml/Menu.qml:739
+#: ../qml/Menu.qml:756 ../qml/Menu.qml:773 ../qml/Menu.qml:790
+#, qt-format
+msgid "Heading %1"
+msgstr "Aqerru %1"
+
+#: ../qml/Menu.qml:821
+msgid "Print…"
+msgstr "Siggez..."
+
+#: ../qml/SaveAs.qml:104
+msgid "Save document"
+msgstr "Sekles isemli"
+
+#: ../qml/SaveAs.qml:105 ../qml/SaveAs.qml:116
+msgid "Enter a file name"
+msgstr "Sekcem isem n ufaylu"
+
+#: ../qml/SaveAs.qml:112
+msgid "Don't use extension"
+msgstr "UR seqdac ara asiɣzef"
+
+#: ../qml/SaveAs.qml:122
+msgid "This file exists"
+msgstr "Afaylu-agi yella"
+
+#: ../qml/SaveAs.qml:163
+msgid "File name exists"
+msgstr "ISem n ufaylu-agi yella"
+
+#: ../qml/SaveAs.qml:164
+msgid "Do you want to overwrite it?"
+msgstr "Ur tebɣiḍ ara ad tt-sfeɛjeḍ-t?"
+
+#: ../qml/Settings.qml:56
+msgid "Black on white"
+msgstr "Aberkan af umella"
+
+#: ../qml/Settings.qml:57
+msgid "White on black"
+msgstr ""
+
+#: ../qml/Settings.qml:58
+msgid "White on aubergine"
+msgstr ""
+
+#: ../qml/Settings.qml:59
+msgid "Grey on blue"
+msgstr ""
+
+#: ../qml/Settings.qml:81
+msgid "Interface"
+msgstr "Agrudem"
+
+#: ../qml/Settings.qml:88
+msgid "Color Schemes"
+msgstr "Izenziɣen n yini"
+
+#: ../qml/Settings.qml:121
+msgid "Convergence"
+msgstr ""
+
+#: ../qml/Settings.qml:136
+msgid "Document"
+msgstr ""
+
+#: ../qml/Settings.qml:143
+msgid "Autosave (needs be saved before)"
+msgstr ""

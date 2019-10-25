@@ -1,0 +1,339 @@
+# Catalan translation for uwriter
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the uwriter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: uwriter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 03:23+0200\n"
+"PO-Revision-Date: 2019-10-17 03:24+0200\n"
+"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-07-05 14:08+0000\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../qml/LoadFile.qml:29 ../qml/SaveAs.qml:41
+msgid "Files"
+msgstr "Fitxers"
+
+#: ../qml/LoadFile.qml:42 ../qml/Settings.qml:40 ../qml/SaveAs.qml:54
+#: ../qml/Menu.qml:45 ../qml/About.qml:40
+msgid "Back"
+msgstr "Enrere"
+
+#: ../qml/LoadFile.qml:61 ../qml/SaveAs.qml:71
+msgid "No files yet"
+msgstr "Encara no hi ha cap fitxer"
+
+#: ../qml/Settings.qml:27 ../qml/Menu.qml:71
+msgid "Settings"
+msgstr "Paràmetres"
+
+#: ../qml/Settings.qml:56
+msgid "Black on white"
+msgstr "Negre sobre blanc"
+
+#: ../qml/Settings.qml:57
+msgid "White on black"
+msgstr "Blanc sobre negre"
+
+#: ../qml/Settings.qml:58
+msgid "White on aubergine"
+msgstr "Blanc sobre albergínia"
+
+#: ../qml/Settings.qml:59
+msgid "Grey on blue"
+msgstr "Gris sobre blau"
+
+#: ../qml/Settings.qml:81
+msgid "Interface"
+msgstr "Interfície"
+
+#: ../qml/Settings.qml:88
+msgid "Color Schemes"
+msgstr "Combinació de colors"
+
+#: ../qml/Settings.qml:121
+msgid "Convergence"
+msgstr "Convergència"
+
+#: ../qml/Settings.qml:136
+msgid "Document"
+msgstr "Document"
+
+#: ../qml/Settings.qml:143
+msgid "Autosave (needs be saved before)"
+msgstr "Desa autom. (ha d'estar desat)"
+
+#: ../qml/SaveAs.qml:104
+msgid "Save document"
+msgstr "Desa el document"
+
+#: ../qml/SaveAs.qml:105 ../qml/SaveAs.qml:116
+msgid "Enter a file name"
+msgstr "Doneu un nom de fitxer"
+
+#: ../qml/SaveAs.qml:112
+msgid "Don't use extension"
+msgstr "No useu cap extensió"
+
+#: ../qml/SaveAs.qml:122
+msgid "This file exists"
+msgstr "Aquest fitxer ja existeix"
+
+#: ../qml/SaveAs.qml:129 ../qml/Main.qml:129
+msgid "Save"
+msgstr "Desa"
+
+#: ../qml/SaveAs.qml:149 ../qml/Main.qml:294
+msgid "Cancel"
+msgstr "Canceŀla"
+
+#: ../qml/SaveAs.qml:163
+msgid "File name exists"
+msgstr "Aquest nom de fitxer  ja existeix"
+
+#: ../qml/SaveAs.qml:164
+msgid "Do you want to overwrite it?"
+msgstr "Voleu reemplaçar-lo?"
+
+#: ../qml/SaveAs.qml:166 ../qml/Main.qml:257
+msgid "Yes"
+msgstr "Sí"
+
+#: ../qml/SaveAs.qml:179 ../qml/Main.qml:281
+msgid "No"
+msgstr "No"
+
+#: ../qml/Main.qml:102 ../qml/Menu.qml:32
+msgid "Menu"
+msgstr "Menú"
+
+#: ../qml/Main.qml:118
+msgid "Save as"
+msgstr "Anomena i desa"
+
+#: ../qml/Main.qml:145
+msgid "Load"
+msgstr "Carrega"
+
+#: ../qml/Main.qml:155
+msgid "New"
+msgstr "Nou"
+
+#: ../qml/Main.qml:254
+msgid "Save file"
+msgstr "Desa el fitxer"
+
+#: ../qml/Main.qml:255
+msgid "Do you want to save the text?"
+msgstr "Voleu desar el text?"
+
+#: ../qml/Menu.qml:61 ../qml/About.qml:23 ../qml/About.qml:27
+msgid "About"
+msgstr "Quant a"
+
+#: ../qml/Menu.qml:105
+msgid "Edit"
+msgstr "Edita"
+
+#: ../qml/Menu.qml:112
+msgid "Cut"
+msgstr "Retalla"
+
+#: ../qml/Menu.qml:129
+msgid "Copy"
+msgstr "Copia"
+
+#: ../qml/Menu.qml:146
+msgid "Select all"
+msgstr "Selecciona-ho tot"
+
+#: ../qml/Menu.qml:163
+msgid "Replace…"
+msgstr "Reemplaça..."
+
+#: ../qml/Menu.qml:180
+msgid "Search"
+msgstr "Cerca"
+
+#: ../qml/Menu.qml:185
+msgid "Replace"
+msgstr "Reemplaça"
+
+#: ../qml/Menu.qml:221
+msgid "Insert"
+msgstr "Insereix"
+
+#: ../qml/Menu.qml:228
+msgid "Horizontal line"
+msgstr "Línia horitzontal"
+
+#: ../qml/Menu.qml:245
+msgid "Current date"
+msgstr "Data actual"
+
+#: ../qml/Menu.qml:262
+msgid "Current time"
+msgstr "Hora actual"
+
+#: ../qml/Menu.qml:279
+msgid "Image…"
+msgstr "Imatge..."
+
+#: ../qml/Menu.qml:296
+msgid "Image link"
+msgstr "Enllaç de la imatge"
+
+#: ../qml/Menu.qml:318
+msgid "Link…"
+msgstr "Enllaça..."
+
+#: ../qml/Menu.qml:335
+msgid "URL (empty = remove)"
+msgstr "URL (buit = esborra)"
+
+#: ../qml/Menu.qml:375
+msgid "Table"
+msgstr "Taula"
+
+#: ../qml/Menu.qml:382
+msgid "Insert…"
+msgstr "Insereix..."
+
+#: ../qml/Menu.qml:401
+msgid "Rows"
+msgstr "Files"
+
+#: ../qml/Menu.qml:414
+msgid "Cols"
+msgstr "Columnes"
+
+#: ../qml/Menu.qml:449
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: ../qml/Menu.qml:480
+msgid "Text"
+msgstr "Text"
+
+#: ../qml/Menu.qml:487
+msgid "Bold"
+msgstr "Negreta"
+
+#: ../qml/Menu.qml:507
+msgid "Italic"
+msgstr "Cursiva"
+
+#: ../qml/Menu.qml:524
+msgid "Underline"
+msgstr "Subratllat"
+
+#: ../qml/Menu.qml:541
+msgid "Strikethrough"
+msgstr "Ratllat"
+
+#: ../qml/Menu.qml:558
+msgid "Superscript"
+msgstr "Superíndex"
+
+#: ../qml/Menu.qml:575
+msgid "Subscript"
+msgstr "Subíndex"
+
+#: ../qml/Menu.qml:607
+msgid "Alignment"
+msgstr "Alineació"
+
+#: ../qml/Menu.qml:614
+msgid "Left"
+msgstr "A l'esquerra"
+
+#: ../qml/Menu.qml:631
+msgid "Center"
+msgstr "Centra"
+
+#: ../qml/Menu.qml:648
+msgid "Right"
+msgstr "A la dreta"
+
+#: ../qml/Menu.qml:665
+msgid "Justify"
+msgstr "Justifica"
+
+#: ../qml/Menu.qml:698
+msgid "Heading"
+msgstr "Encapçalament"
+
+#: ../qml/Menu.qml:705 ../qml/Menu.qml:722 ../qml/Menu.qml:739
+#: ../qml/Menu.qml:756 ../qml/Menu.qml:773 ../qml/Menu.qml:790
+msgid "Heading %1"
+msgstr "Capçalera %1"
+
+#: ../qml/Menu.qml:821
+msgid "Print…"
+msgstr ""
+
+#: ../qml/About.qml:60 ../qml/About.qml:61 ../qml/About.qml:62
+#: ../qml/About.qml:63 ../qml/About.qml:64
+msgid "Resources"
+msgstr "Recursos"
+
+#: ../qml/About.qml:60
+msgid "Rate on Store"
+msgstr "Puntueu-la a la botiga"
+
+#: ../qml/About.qml:61
+msgid "Translations"
+msgstr "Traduccions"
+
+#: ../qml/About.qml:62
+msgid "Answers"
+msgstr "Respostes"
+
+#: ../qml/About.qml:63
+msgid "Bugs"
+msgstr "Errors"
+
+#: ../qml/About.qml:64
+msgid "Contact"
+msgstr "Contacte"
+
+#: ../qml/About.qml:67
+msgid "Developer"
+msgstr "Desenvolupament"
+
+#: ../qml/About.qml:70
+msgid "Logo"
+msgstr "Logotip"
+
+#: ../qml/About.qml:73
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Joan CiberSheep https://launchpad.net/~cibersheep\n"
+"  Sergi Quiles Pérez https://launchpad.net/~sergiqp\n"
+"  Walter Garcia-Fontes https://launchpad.net/~walter-garcia"
+
+#: ../qml/About.qml:75
+msgid "Translators"
+msgstr "Traducció"
+
+#: ../qml/About.qml:79
+msgid "Powered by"
+msgstr "Funciona amb"
+
+#. TRANSLATORS: %1 and %2 are links that do not have to be translated: Year + Project + License
+#: ../qml/About.qml:121
+msgid "Version %1. Under license %2"
+msgstr "Versió %1. Sota llicència %2"
+
+#: uwp.desktop.in.h:1
+msgid "uWriter"
+msgstr ""

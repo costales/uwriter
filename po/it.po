@@ -1,0 +1,336 @@
+# Italian translation for uwriter
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the uwriter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: uwriter\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-12-31 12:14+0100\n"
+"PO-Revision-Date: 2018-07-05 14:05+0000\n"
+"Last-Translator: Gabriele <Unknown>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-07-05 14:08+0000\n"
+"X-Generator: Launchpad (build 18704)\n"
+
+#: ../qml/About.qml:23 ../qml/About.qml:27 ../qml/Menu.qml:61
+msgid "About"
+msgstr "Informazioni"
+
+#: ../qml/About.qml:40 ../qml/LoadFile.qml:42 ../qml/Menu.qml:45
+#: ../qml/SaveAs.qml:54 ../qml/Settings.qml:40
+msgid "Back"
+msgstr "Indietro"
+
+#: ../qml/About.qml:60 ../qml/About.qml:61 ../qml/About.qml:62
+#: ../qml/About.qml:63 ../qml/About.qml:64
+msgid "Resources"
+msgstr "Risorse"
+
+#: ../qml/About.qml:60
+msgid "Rate on Store"
+msgstr "Valuta nello Store"
+
+#: ../qml/About.qml:61
+msgid "Translations"
+msgstr "Traduzioni"
+
+#: ../qml/About.qml:62
+msgid "Answers"
+msgstr "Risposte"
+
+#: ../qml/About.qml:63
+msgid "Bugs"
+msgstr "Bug"
+
+#: ../qml/About.qml:64
+msgid "Contact"
+msgstr "Contatta"
+
+#: ../qml/About.qml:67
+msgid "Developer"
+msgstr "Sviluppatore"
+
+#: ../qml/About.qml:70
+msgid "Logo"
+msgstr "Logo"
+
+#: ../qml/About.qml:73
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Claudio Arseni https://launchpad.net/~claudio.arseni\n"
+"  Emanuele Antonio Faraone https://launchpad.net/~emanueleant03\n"
+"  Gabriele https://launchpad.net/~gabrielemartelli"
+
+#: ../qml/About.qml:75
+msgid "Translators"
+msgstr "Traduttori"
+
+#: ../qml/About.qml:79
+msgid "Powered by"
+msgstr "Basato su"
+
+#. TRANSLATORS: %1 and %2 are links that do not have to be translated: Year + Project + License
+#: ../qml/About.qml:121
+#, qt-format
+msgid "Version %1. Under license %2"
+msgstr "Versione %1. Secondo i termini della licenza %2"
+
+#: ../qml/LoadFile.qml:29 ../qml/SaveAs.qml:41
+msgid "Files"
+msgstr "File"
+
+#: ../qml/LoadFile.qml:61 ../qml/SaveAs.qml:71
+msgid "No files yet"
+msgstr "Ancora nessun file"
+
+#: ../qml/Main.qml:102 ../qml/Menu.qml:32
+msgid "Menu"
+msgstr "Menu"
+
+#: ../qml/Main.qml:118
+msgid "Save as"
+msgstr "Salva come"
+
+#: ../qml/Main.qml:129 ../qml/SaveAs.qml:129
+msgid "Save"
+msgstr "Salva"
+
+#: ../qml/Main.qml:145
+msgid "Load"
+msgstr "Carica"
+
+#: ../qml/Main.qml:155
+msgid "New"
+msgstr "Nuovo"
+
+#: ../qml/Main.qml:254
+msgid "Save file"
+msgstr "Salva il file"
+
+#: ../qml/Main.qml:255
+msgid "Do you want to save the text?"
+msgstr "Vuoi salvare il testo?"
+
+#: ../qml/Main.qml:257 ../qml/SaveAs.qml:166
+msgid "Yes"
+msgstr "Sì"
+
+#: ../qml/Main.qml:281 ../qml/SaveAs.qml:179
+msgid "No"
+msgstr "No"
+
+#: ../qml/Main.qml:294 ../qml/SaveAs.qml:149
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../qml/Menu.qml:71 ../qml/Settings.qml:27
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../qml/Menu.qml:105
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../qml/Menu.qml:112
+msgid "Cut"
+msgstr "Taglia"
+
+#: ../qml/Menu.qml:129
+msgid "Copy"
+msgstr "Copia"
+
+#: ../qml/Menu.qml:146
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: ../qml/Menu.qml:163
+msgid "Replace…"
+msgstr "Rimpiazza..."
+
+#: ../qml/Menu.qml:180
+msgid "Search"
+msgstr "Cerca"
+
+#: ../qml/Menu.qml:185
+msgid "Replace"
+msgstr "Sostituisci"
+
+#: ../qml/Menu.qml:221
+msgid "Insert"
+msgstr "Inserisci"
+
+#: ../qml/Menu.qml:228
+msgid "Horizontal line"
+msgstr "Linea orizzontale"
+
+#: ../qml/Menu.qml:245
+msgid "Current date"
+msgstr "Data attuale"
+
+#: ../qml/Menu.qml:262
+msgid "Current time"
+msgstr "Ora corrente"
+
+#: ../qml/Menu.qml:279
+msgid "Image…"
+msgstr "Immagine..."
+
+#: ../qml/Menu.qml:296
+msgid "Image link"
+msgstr "Indirizzo dell'immagine"
+
+#: ../qml/Menu.qml:318
+msgid "Link…"
+msgstr "Indirizzo..."
+
+#: ../qml/Menu.qml:335
+msgid "URL (empty = remove)"
+msgstr "URL (vuoto = rimuovi)"
+
+#: ../qml/Menu.qml:375
+msgid "Table"
+msgstr "Tabella"
+
+#: ../qml/Menu.qml:382
+msgid "Insert…"
+msgstr "Inserisci..."
+
+#: ../qml/Menu.qml:401
+msgid "Rows"
+msgstr "Righe"
+
+#: ../qml/Menu.qml:414
+msgid "Cols"
+msgstr "Colonne"
+
+#: ../qml/Menu.qml:449
+msgid "Delete"
+msgstr "Elimina"
+
+#: ../qml/Menu.qml:480
+msgid "Text"
+msgstr "Testo"
+
+#: ../qml/Menu.qml:487
+msgid "Bold"
+msgstr "Grassetto"
+
+#: ../qml/Menu.qml:507
+msgid "Italic"
+msgstr "Corsivo"
+
+#: ../qml/Menu.qml:524
+msgid "Underline"
+msgstr "Sottolineato"
+
+#: ../qml/Menu.qml:541
+msgid "Strikethrough"
+msgstr "Barrato"
+
+#: ../qml/Menu.qml:558
+msgid "Superscript"
+msgstr "Apice"
+
+#: ../qml/Menu.qml:575
+msgid "Subscript"
+msgstr "Pedice"
+
+#: ../qml/Menu.qml:607
+msgid "Alignment"
+msgstr "Allineamento"
+
+#: ../qml/Menu.qml:614
+msgid "Left"
+msgstr "Sinistra"
+
+#: ../qml/Menu.qml:631
+msgid "Center"
+msgstr "Centra"
+
+#: ../qml/Menu.qml:648
+msgid "Right"
+msgstr "Destra"
+
+#: ../qml/Menu.qml:665
+msgid "Justify"
+msgstr "Giustifica"
+
+#: ../qml/Menu.qml:698
+msgid "Heading"
+msgstr "Intestazione"
+
+#: ../qml/Menu.qml:705 ../qml/Menu.qml:722 ../qml/Menu.qml:739
+#: ../qml/Menu.qml:756 ../qml/Menu.qml:773 ../qml/Menu.qml:790
+#, qt-format
+msgid "Heading %1"
+msgstr "Intestazione %1"
+
+#: ../qml/Menu.qml:821
+msgid "Print…"
+msgstr "Stampa…"
+
+#: ../qml/SaveAs.qml:104
+msgid "Save document"
+msgstr "Salva il documento"
+
+#: ../qml/SaveAs.qml:105 ../qml/SaveAs.qml:116
+msgid "Enter a file name"
+msgstr "Inserire un nome per il file"
+
+#: ../qml/SaveAs.qml:112
+msgid "Don't use extension"
+msgstr "Non usare l'estensione"
+
+#: ../qml/SaveAs.qml:122
+msgid "This file exists"
+msgstr "Questo file esiste già"
+
+#: ../qml/SaveAs.qml:163
+msgid "File name exists"
+msgstr "Nome del file già esistente"
+
+#: ../qml/SaveAs.qml:164
+msgid "Do you want to overwrite it?"
+msgstr "Vuoi sovrascriverlo?"
+
+#: ../qml/Settings.qml:56
+msgid "Black on white"
+msgstr "Nero su bianco"
+
+#: ../qml/Settings.qml:57
+msgid "White on black"
+msgstr "Bianco su nero"
+
+#: ../qml/Settings.qml:58
+msgid "White on aubergine"
+msgstr "Bianco su color melanzana"
+
+#: ../qml/Settings.qml:59
+msgid "Grey on blue"
+msgstr "Grigio su blu"
+
+#: ../qml/Settings.qml:81
+msgid "Interface"
+msgstr "Interfaccia"
+
+#: ../qml/Settings.qml:88
+msgid "Color Schemes"
+msgstr "Schemi di colori"
+
+#: ../qml/Settings.qml:121
+msgid "Convergence"
+msgstr "Convergenza"
+
+#: ../qml/Settings.qml:136
+msgid "Document"
+msgstr "Documento"
+
+#: ../qml/Settings.qml:143
+msgid "Autosave (needs be saved before)"
+msgstr "Salvataggio automatico (è necessario salvare prima il documento)"
