@@ -118,7 +118,7 @@ Page {
                     wrapMode: Text.WordWrap
                     horizontalAlignment: Text.AlignHCenter
                     //TRANSLATORS: %1 and %2 are links that do not have to be translated: Year + Project + License
-                    text: i18n.tr("Version %1. Under license %2").arg("0.32").arg("<a href=\"http://www.gnu.org/licenses/gpl-3.0.en.html\">GPL3</a>")
+                    text: i18n.tr("Version %1. Under license %2").arg("0.33").arg("<a href=\"http://www.gnu.org/licenses/gpl-3.0.en.html\">GPL3</a>")
                     onLinkActivated: Qt.openUrlExternally(link)
                 }
             }
