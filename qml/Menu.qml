@@ -808,7 +808,7 @@ Page {
                     id: expandingItem8
                     expandedHeight: contentCol8.height + units.gu(1)
                     onClicked: {
-                        Qt.openUrlExternally("https://costalesmarcos.blogspot.com/2016/11/how-to-print-document-from-uwriter.html")
+                        Qt.openUrlExternally("https://costales.github.io/posts/blogger_how-to-print-document-from-uwriter/")
                     }
                     Column {
                         id: contentCol8
