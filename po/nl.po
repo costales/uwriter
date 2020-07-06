@@ -6,206 +6,214 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: uwriter\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-12-31 12:14+0100\n"
-"PO-Revision-Date: 2016-12-03 11:21+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 02:09+0000\n"
+"PO-Revision-Date: 2020-07-06 13:17+0200\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2018-07-05 14:08+0000\n"
-"X-Generator: Launchpad (build 18704)\n"
-
-#: ../qml/About.qml:23 ../qml/About.qml:27 ../qml/Menu.qml:61
-msgid "About"
-msgstr "Over"
-
-#: ../qml/About.qml:40 ../qml/LoadFile.qml:42 ../qml/Menu.qml:45
-#: ../qml/SaveAs.qml:54 ../qml/Settings.qml:40
-msgid "Back"
-msgstr ""
-
-#: ../qml/About.qml:60 ../qml/About.qml:61 ../qml/About.qml:62
-#: ../qml/About.qml:63 ../qml/About.qml:64
-msgid "Resources"
-msgstr ""
-
-#: ../qml/About.qml:60
-msgid "Rate on Store"
-msgstr ""
-
-#: ../qml/About.qml:61
-msgid "Translations"
-msgstr ""
-
-#: ../qml/About.qml:62
-msgid "Answers"
-msgstr ""
-
-#: ../qml/About.qml:63
-msgid "Bugs"
-msgstr ""
-
-#: ../qml/About.qml:64
-msgid "Contact"
-msgstr ""
-
-#: ../qml/About.qml:67
-msgid "Developer"
-msgstr ""
-
-#: ../qml/About.qml:70
-msgid "Logo"
-msgstr ""
-
-#: ../qml/About.qml:73
-msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Heimen Stoffels https://launchpad.net/~vistaus"
-
-#: ../qml/About.qml:75
-msgid "Translators"
-msgstr ""
-
-#: ../qml/About.qml:79
-msgid "Powered by"
-msgstr ""
-
-#. TRANSLATORS: %1 and %2 are links that do not have to be translated: Year + Project + License
-#: ../qml/About.qml:121
-#, qt-format
-msgid "Version %1. Under license %2"
-msgstr ""
+"X-Generator: Poedit 2.3.1\n"
 
 #: ../qml/LoadFile.qml:29 ../qml/SaveAs.qml:41
 msgid "Files"
-msgstr ""
+msgstr "Bestanden"
+
+#: ../qml/LoadFile.qml:42 ../qml/Settings.qml:40 ../qml/SaveAs.qml:54
+#: ../qml/Menu.qml:45 ../qml/About.qml:40
+msgid "Back"
+msgstr "Vorige"
 
 #: ../qml/LoadFile.qml:61 ../qml/SaveAs.qml:71
 msgid "No files yet"
-msgstr ""
+msgstr "Je hebt nog geen bestanden"
 
-#: ../qml/Main.qml:102 ../qml/Menu.qml:32
-msgid "Menu"
-msgstr ""
+#: ../qml/Settings.qml:27 ../qml/Menu.qml:71
+msgid "Settings"
+msgstr "Instellingen"
 
-#: ../qml/Main.qml:118
-msgid "Save as"
-msgstr ""
+#: ../qml/Settings.qml:56
+msgid "Black on white"
+msgstr "Zwart op wit"
 
-#: ../qml/Main.qml:129 ../qml/SaveAs.qml:129
+#: ../qml/Settings.qml:57
+msgid "White on black"
+msgstr "Wit op zwart"
+
+#: ../qml/Settings.qml:58
+msgid "White on aubergine"
+msgstr "Wit op aubergine"
+
+#: ../qml/Settings.qml:59
+msgid "Grey on blue"
+msgstr "Grijs op blauw"
+
+#: ../qml/Settings.qml:81
+msgid "Interface"
+msgstr "Uiterlijk"
+
+#: ../qml/Settings.qml:88
+msgid "Color Schemes"
+msgstr "Kleurenschema's"
+
+#: ../qml/Settings.qml:121
+msgid "Convergence"
+msgstr "Eenheid"
+
+#: ../qml/Settings.qml:136
+msgid "Document"
+msgstr "Document"
+
+#: ../qml/Settings.qml:143
+msgid "Autosave (needs be saved before)"
+msgstr "Automatisch opslaan (moet eenmaal handmatig worden opgeslagen)"
+
+#: ../qml/SaveAs.qml:104
+msgid "Save document"
+msgstr "Document opslaan"
+
+#: ../qml/SaveAs.qml:105 ../qml/SaveAs.qml:116
+msgid "Enter a file name"
+msgstr "Voer een bestandsnaam in"
+
+#: ../qml/SaveAs.qml:112
+msgid "Don't use extension"
+msgstr "Geen extensie toekennen"
+
+#: ../qml/SaveAs.qml:122
+msgid "This file exists"
+msgstr "Dit bestand bestaat al"
+
+#: ../qml/SaveAs.qml:129 ../qml/Main.qml:124
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
-#: ../qml/Main.qml:145
-msgid "Load"
-msgstr ""
-
-#: ../qml/Main.qml:155
-msgid "New"
-msgstr ""
-
-#: ../qml/Main.qml:254
-msgid "Save file"
-msgstr ""
-
-#: ../qml/Main.qml:255
-msgid "Do you want to save the text?"
-msgstr ""
-
-#: ../qml/Main.qml:257 ../qml/SaveAs.qml:166
-msgid "Yes"
-msgstr ""
-
-#: ../qml/Main.qml:281 ../qml/SaveAs.qml:179
-msgid "No"
-msgstr ""
-
-#: ../qml/Main.qml:294 ../qml/SaveAs.qml:149
+#: ../qml/SaveAs.qml:149 ../qml/Main.qml:289
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../qml/Menu.qml:71 ../qml/Settings.qml:27
-msgid "Settings"
-msgstr ""
+#: ../qml/SaveAs.qml:163
+msgid "File name exists"
+msgstr "Deze bestandsnaam is al in gebruik"
+
+#: ../qml/SaveAs.qml:164
+msgid "Do you want to overwrite it?"
+msgstr "Wil je het overschrijven?"
+
+#: ../qml/SaveAs.qml:166 ../qml/Main.qml:252
+msgid "Yes"
+msgstr "Ja"
+
+#: ../qml/SaveAs.qml:179 ../qml/Main.qml:276
+msgid "No"
+msgstr "Nee"
+
+#: ../qml/Main.qml:97 ../qml/Menu.qml:32
+msgid "Menu"
+msgstr "Menu"
+
+#: ../qml/Main.qml:113
+msgid "Save as"
+msgstr "Opslaan als"
+
+#: ../qml/Main.qml:140
+msgid "Load"
+msgstr "Openen"
+
+#: ../qml/Main.qml:150
+msgid "New"
+msgstr "Nieuw"
+
+#: ../qml/Main.qml:249
+msgid "Save file"
+msgstr "Bestand opslaan"
+
+#: ../qml/Main.qml:250
+msgid "Do you want to save the text?"
+msgstr "Wil je de tekst opslaan?"
+
+#: ../qml/Menu.qml:61 ../qml/About.qml:23 ../qml/About.qml:27
+msgid "About"
+msgstr "Over"
 
 #: ../qml/Menu.qml:105
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 #: ../qml/Menu.qml:112
 msgid "Cut"
-msgstr ""
+msgstr "Knippen"
 
 #: ../qml/Menu.qml:129
 msgid "Copy"
-msgstr ""
+msgstr "Kopiëren"
 
 #: ../qml/Menu.qml:146
 msgid "Select all"
-msgstr ""
+msgstr "Alles selecteren"
 
 #: ../qml/Menu.qml:163
 msgid "Replace…"
-msgstr ""
+msgstr "Vervangen…"
 
 #: ../qml/Menu.qml:180
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: ../qml/Menu.qml:185
 msgid "Replace"
-msgstr ""
+msgstr "Vervangen"
 
 #: ../qml/Menu.qml:221
 msgid "Insert"
-msgstr ""
+msgstr "Invoegen"
 
 #: ../qml/Menu.qml:228
 msgid "Horizontal line"
-msgstr ""
+msgstr "Horizontale lijn"
 
 #: ../qml/Menu.qml:245
 msgid "Current date"
-msgstr ""
+msgstr "Huidige datum"
 
 #: ../qml/Menu.qml:262
 msgid "Current time"
-msgstr ""
+msgstr "Huidige tijd"
 
 #: ../qml/Menu.qml:279
 msgid "Image…"
-msgstr ""
+msgstr "Afbeelding…"
 
 #: ../qml/Menu.qml:296
 msgid "Image link"
-msgstr ""
+msgstr "Afbeeldingslink"
 
 #: ../qml/Menu.qml:318
 msgid "Link…"
-msgstr ""
+msgstr "Link…"
 
 #: ../qml/Menu.qml:335
 msgid "URL (empty = remove)"
-msgstr ""
+msgstr "URL (blanco = verwijderen)"
 
 #: ../qml/Menu.qml:375
 msgid "Table"
-msgstr ""
+msgstr "Tabel"
 
 #: ../qml/Menu.qml:382
 msgid "Insert…"
-msgstr ""
+msgstr "Invoegen…"
 
 #: ../qml/Menu.qml:401
 msgid "Rows"
-msgstr ""
+msgstr "Rijen"
 
 #: ../qml/Menu.qml:414
 msgid "Cols"
-msgstr ""
+msgstr "Kolommen"
 
 #: ../qml/Menu.qml:449
 msgid "Delete"
@@ -213,122 +221,111 @@ msgstr "Verwijderen"
 
 #: ../qml/Menu.qml:480
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: ../qml/Menu.qml:487
 msgid "Bold"
-msgstr ""
+msgstr "Vetgedrukt"
 
 #: ../qml/Menu.qml:507
 msgid "Italic"
-msgstr ""
+msgstr "Cursief"
 
 #: ../qml/Menu.qml:524
 msgid "Underline"
-msgstr ""
+msgstr "Onderstrepen"
 
 #: ../qml/Menu.qml:541
 msgid "Strikethrough"
-msgstr ""
+msgstr "Doorhalen"
 
 #: ../qml/Menu.qml:558
 msgid "Superscript"
-msgstr ""
+msgstr "Superscript"
 
 #: ../qml/Menu.qml:575
 msgid "Subscript"
-msgstr ""
+msgstr "Subscript"
 
 #: ../qml/Menu.qml:607
 msgid "Alignment"
-msgstr ""
+msgstr "Uitlijning"
 
 #: ../qml/Menu.qml:614
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: ../qml/Menu.qml:631
 msgid "Center"
-msgstr ""
+msgstr "Centreren"
 
 #: ../qml/Menu.qml:648
 msgid "Right"
-msgstr ""
+msgstr "Rechts"
 
 #: ../qml/Menu.qml:665
 msgid "Justify"
-msgstr ""
+msgstr "Uitvullen"
 
 #: ../qml/Menu.qml:698
 msgid "Heading"
-msgstr ""
+msgstr "Kop"
 
 #: ../qml/Menu.qml:705 ../qml/Menu.qml:722 ../qml/Menu.qml:739
 #: ../qml/Menu.qml:756 ../qml/Menu.qml:773 ../qml/Menu.qml:790
-#, qt-format
 msgid "Heading %1"
-msgstr ""
+msgstr "Kop %1"
 
 #: ../qml/Menu.qml:821
 msgid "Print…"
-msgstr ""
+msgstr "Afdrukken…"
 
-#: ../qml/SaveAs.qml:104
-msgid "Save document"
-msgstr ""
+#: ../qml/About.qml:61 ../qml/About.qml:62 ../qml/About.qml:63
+#: ../qml/About.qml:64
+msgid "Resources"
+msgstr "Bronnen"
 
-#: ../qml/SaveAs.qml:105 ../qml/SaveAs.qml:116
-msgid "Enter a file name"
-msgstr "Typ een bestandsnaam"
+#: ../qml/About.qml:61
+msgid "Translations"
+msgstr "Vertalingen"
 
-#: ../qml/SaveAs.qml:112
-msgid "Don't use extension"
-msgstr ""
+#: ../qml/About.qml:62
+msgid "Answers"
+msgstr "Antwoorden"
 
-#: ../qml/SaveAs.qml:122
-msgid "This file exists"
-msgstr ""
+#: ../qml/About.qml:63
+msgid "Bugs"
+msgstr "Bugs"
 
-#: ../qml/SaveAs.qml:163
-msgid "File name exists"
-msgstr ""
+#: ../qml/About.qml:64
+msgid "Contact"
+msgstr "Contact"
 
-#: ../qml/SaveAs.qml:164
-msgid "Do you want to overwrite it?"
-msgstr ""
+#: ../qml/About.qml:67
+msgid "Developer"
+msgstr "Ontwikkelaar"
 
-#: ../qml/Settings.qml:56
-msgid "Black on white"
-msgstr ""
+#: ../qml/About.qml:70
+msgid "Logo"
+msgstr "Logo"
 
-#: ../qml/Settings.qml:57
-msgid "White on black"
-msgstr ""
+#: ../qml/About.qml:73
+msgid "translator-credits"
+msgstr "Heimen Stoffels https://github.com/Vistaus"
 
-#: ../qml/Settings.qml:58
-msgid "White on aubergine"
-msgstr ""
+#: ../qml/About.qml:75
+msgid "Translators"
+msgstr "Vertalers"
 
-#: ../qml/Settings.qml:59
-msgid "Grey on blue"
-msgstr ""
+#: ../qml/About.qml:79
+msgid "Powered by"
+msgstr "Aangedreven door"
 
-#: ../qml/Settings.qml:81
-msgid "Interface"
-msgstr ""
+#. TRANSLATORS: %1 and %2 are links that do not have to be translated: Year + Project + License
+#: ../qml/About.qml:121
+msgid "Version %1. Under license %2"
+msgstr "Versie %1, onder licentie %2"
 
-#: ../qml/Settings.qml:88
-msgid "Color Schemes"
-msgstr ""
-
-#: ../qml/Settings.qml:121
-msgid "Convergence"
-msgstr ""
-
-#: ../qml/Settings.qml:136
-msgid "Document"
-msgstr ""
-
-#: ../qml/Settings.qml:143
-msgid "Autosave (needs be saved before)"
-msgstr ""
+#: uwp.desktop.in.h:1
+msgid "Writer"
+msgstr "Writer"
