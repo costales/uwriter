@@ -328,4 +328,4 @@ msgstr "Versie %1, onder licentie %2"
 
 #: uwp.desktop.in.h:1
 msgid "Writer"
-msgstr "Writer"
+msgstr "Tekstverwerker"
