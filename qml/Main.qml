@@ -16,8 +16,7 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
-import Ubuntu.Web 0.2
-import com.canonical.Oxide 1.0 as Oxide
+import QtWebEngine 1.6
 import Qt.labs.settings 1.0
 import "js/utils.js" as QmlJs
 
@@ -60,10 +59,8 @@ MainView {
         }
 
         function executeJavaScript(code) {
-            var req = webview.rootFrame.sendMessage("messaging://", "EXECUTE", {code: code});
-            req.onerror = function (code, explanation) {
-                console.log("Error " + code + ": " + explanation)
-            }
+            console.log(code)
+            _webview.runJavaScript(code);
         }
 
 
@@ -72,7 +69,7 @@ MainView {
 
             onVisibleChanged: {
                 if (visible) {
-                    webview.forceActiveFocus();
+                    _webview.forceActiveFocus();
                 }
             }
 
@@ -156,39 +153,42 @@ MainView {
                 }
             }
 
-            WebContext {
-                id: webcontext
-                userAgent: "Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36"
-                userScripts: [
-                    Oxide.UserScript {
-                        context: "messaging://"
-                        url: Qt.resolvedUrl("js/oxide.js")
-                    }
-                ]
-            }
+			WebEngineProfile {
+				id: webcontext
+                httpUserAgent: "Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36"
+			}
 
-            WebView {
-                id: webview
+            WebEngineView {
+				id: _webview
                 anchors.top: pageHeader.bottom
                 anchors.bottom: parent.bottom
                 anchors.left: parent.left
                 anchors.right: parent.right
-                //anchors.fill: parent
-                z: -6
-                context: webcontext
+                profile: webcontext
                 url: "../uwp/index.html"
-                preferences.allowFileAccessFromFileUrls: true
-                preferences.allowUniversalAccessFromFileUrls: true
-                preferences.appCacheEnabled: true
-                preferences.javascriptCanAccessClipboard: true
-                preferences.javascriptEnabled: true
+				settings.localContentCanAccessFileUrls: true
+				settings.localContentCanAccessRemoteUrls: true
+				settings.javascriptEnabled: true
+				settings.focusOnNavigationEnabled: true
+				settings.allowWindowActivationFromJavaScript: true
 
-                onLoadingStateChanged: {
-                    if (!loading && !mainPageStack.onLoadingExecuted) {
-                        pageMain.btnsEnabled = true;
-                        mainPageStack.executeJavaScript("editor_colors(" + mainPageStack.settings.editorColors + ")");
+				onJavaScriptConsoleMessage: {
+					var msg = "[JS] (%1:%2) %3".arg(sourceID).arg(lineNumber).arg(message)
+				    console.log(msg)
+				}
+
+				Connections {
+					onLoadingChanged: {
+						if (loadRequest.status === WebEngineView.LoadSucceededStatus && !mainPageStack.onLoadingExecuted) {
+                            pageMain.btnsEnabled = true;
+                            mainPageStack.executeJavaScript("editor_colors(" + mainPageStack.settings.editorColors + ")");
+                        }
                     }
-                }
+ 					onFeaturePermissionRequested: {
+						console.log("grantFeaturePermission", feature)
+						_webview.grantFeaturePermission(securityOrigin, feature, true);
+					}
+            }
 
                 onNavigationRequested:{
                     var url = request.url.toString();
@@ -235,7 +235,8 @@ MainView {
                         Qt.openUrlExternally(url);
                     }
 
-                    request.action = Oxide.NavigationRequest.ActionReject;
+					if (typeof url[0] != "undefined" && url[0].includes("http"))
+						request.action = WebEngineNavigationRequest.IgnoreRequest;
                 }
 
             }
