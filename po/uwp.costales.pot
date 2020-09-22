@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uwp.costales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-20 07:44+0000\n"
+"POT-Creation-Date: 2020-09-22 04:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,23 +37,23 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-#: ../qml/Main.qml:251
+#: ../qml/Main.qml:250
 msgid "Save file"
 msgstr ""
 
-#: ../qml/Main.qml:252
+#: ../qml/Main.qml:251
 msgid "Do you want to save the text?"
 msgstr ""
 
-#: ../qml/Main.qml:254 ../qml/SaveAs.qml:166
+#: ../qml/Main.qml:253 ../qml/SaveAs.qml:166
 msgid "Yes"
 msgstr ""
 
-#: ../qml/Main.qml:278 ../qml/SaveAs.qml:179
+#: ../qml/Main.qml:277 ../qml/SaveAs.qml:179
 msgid "No"
 msgstr ""
 
-#: ../qml/Main.qml:291 ../qml/SaveAs.qml:149
+#: ../qml/Main.qml:290 ../qml/SaveAs.qml:149
 msgid "Cancel"
 msgstr ""
 
