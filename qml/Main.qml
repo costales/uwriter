@@ -17,6 +17,7 @@ import QtQuick 2.12
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 import QtWebEngine 1.8
+import Morph.Web 0.1
 import Qt.labs.settings 1.0
 import "js/utils.js" as QmlJs
 
